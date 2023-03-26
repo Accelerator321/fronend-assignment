@@ -90,12 +90,12 @@ function handleDelete(){
      <button type="button" className="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target={`#modal${index}`}>
           change Bucket
         </button>
-        <button type="button" className="btn btn-danger mx-2 my-2" data-bs-toggle="modal" data-bs-target={`#modal-delete${index}`}>
+        <button type="button" className="btn btn-danger mx-2 my-1" data-bs-toggle="modal" data-bs-target={`#modal-delete${index}`}>
           Delete
         </button>
-        <button></button>
+    
 
-        <Modal link={link} title={title} />
+        <Modal link={link} title={title} currentBucket={currentBucket} index={index} />
         
     </>
     );
@@ -161,11 +161,16 @@ function handleDelete(){
       {/* _________palyer_____________ */}
 
       <div className = 'player-item mx-3 my-5' id={`playerItem${currentBucket}${index}`}>
-
+      
         {/* {title} <button type="button" className="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content={<Content/>}>:</button> */}
      <div style={{height:'65%'}}>
         <ReactPlayer url={link} height={'100%'} width={'100%'} />
         </div>
+
+        <h5 style={{textAlign:'center'}}>
+        {title}
+        </h5>
+        
         <Content/>
        
        

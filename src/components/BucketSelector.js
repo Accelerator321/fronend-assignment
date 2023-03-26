@@ -6,7 +6,7 @@ const BucketSelector = () => {
     
     let bucketList = useSelector((store)=>store.bucketList);
     const currentBucket = useSelector((store) => store.currentBucket);
-    console.log(currentBucket,bucketList,"nav");
+    // console.log(currentBucket,bucketList,"nav");
     
 
 let options = []
@@ -26,7 +26,7 @@ const dispatch = useDispatch();
 if(options.length !==0 && currentBucket.length ===0){
   dispatch(changeBucket(start))
 }
-console.log(currentBucket,bucketList,"nav");
+// console.log(currentBucket,bucketList,"nav");
 // let [currentBucket,setcurrentBucket] = useState(options[0].props.value)
 
 
