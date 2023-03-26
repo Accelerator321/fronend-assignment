@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fronend-assignment/static/css/main.4298d987.css",
-    "main.js": "/fronend-assignment/static/js/main.03570b60.js",
+    "main.js": "/fronend-assignment/static/js/main.a7c0a4c4.js",
     "static/js/787.2cc6f486.chunk.js": "/fronend-assignment/static/js/787.2cc6f486.chunk.js",
     "index.html": "/fronend-assignment/index.html",
     "main.4298d987.css.map": "/fronend-assignment/static/css/main.4298d987.css.map",
-    "main.03570b60.js.map": "/fronend-assignment/static/js/main.03570b60.js.map",
+    "main.a7c0a4c4.js.map": "/fronend-assignment/static/js/main.a7c0a4c4.js.map",
     "787.2cc6f486.chunk.js.map": "/fronend-assignment/static/js/787.2cc6f486.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4298d987.css",
-    "static/js/main.03570b60.js"
+    "static/js/main.a7c0a4c4.js"
   ]
 }
